@@ -17,3 +17,11 @@ function divide(a, b) {
     return a / b
   }
 }
+
+function inc(n) {
+  return n += n
+}
+
+function dec(n) {
+  return n -= n
+}
